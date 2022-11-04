@@ -8,8 +8,6 @@ st.image("https://imgs.search.brave.com/QY0-mh6pmbOCiNC3h1K6OB_T7xdTkEJiVuvKcd_J
 df = pd.DataFrame({'What is Churn':['Churn is'],'What can we do':'you can do'})
 st.write(df)
 
-with st.button('View Sales'):
-    st.wrte(x)
 
 x = st.metric('Sales',2500,-12)
 
